@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(197, 191, 191);
+}
+.container{
+    width:1320px;
+    height: 950px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+.navbar{
+    height: 75px;
+    background-color: hsl(0,0%,100%);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.nav-logo{
+   height: 60px;
+   width: 121px;
+   display: flex;
+}
+.logo{
+   background-image: url("image5.png");
+   background-size: contain;
+   height: 60px;
+   width: 110px;
+   background-repeat: no-repeat;
+   margin-top: 18px;
+
+}
+.content{
+    font-size: 12px;
+    color: black;
+    display:flex;
+    width: 700px;
+        justify-content: space-evenly;
+        font-weight: 700;
+}
+.cart{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 700;
+
+}
+.circle{
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    text-align: center;
+    border-radius: 50%;
+}
+.hero-section{
+    background-image: url("image1.png");
+    height: 550px;
+    background-size: cover;
+}
+.shop-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.box{
+    height: 260px;
+    width: 280px;
+    
+}
+.box2{
+    background-image: url("image2.png");
+    height: 260px;
+    background-size: cover;
+}
+.box3{
+    background-image: url("image3.png");
+    height: 260px;
+    background-size: cover;
+}
+.box4{
+    background-image: url("image4.png");
+    height: 260px;
+    background-size: cover;
+}
+.head{
+    width:170px;
+    margin-left: 50px;
+}
+
+.text{
+    margin-top: 30px;
+    margin-left: 80px;
+    
+    
+}
+
+
+
